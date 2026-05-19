@@ -19,4 +19,29 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); }
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); 
+}
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #16a34a;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #111827;
+    font-weight: 500;
+}
+
+.cart {
+    background: #16a34a;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 12px;
+    font-weight: 600; 
+}
