@@ -184,3 +184,37 @@ body {
     margin-bottom: 25px;
     opacity: 0.9; 
 }
+.banner button {
+    padding: 16px 30px;
+    border: none;
+    border-radius: 14px;
+    background: white;
+    color: #16a34a;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    color: #6b7280;
+}
+
+@media(max-width:900px) {
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .categories {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-left h1 {
+        font-size: 42px; 
+    }
+        .header {
+            flex-direction: column;
+            gap: 20px;
+        }   
+    }
