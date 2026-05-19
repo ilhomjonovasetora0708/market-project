@@ -149,3 +149,38 @@ body {
     line-height: 1.6;
     margin-bottom: 15px; 
 }
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #16a34a;
+    margin-bottom: 15px;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #16a34a;
+    color: white;
+    cursor: pointer;
+    font-weight: 600; 
+}
+.banner {
+    margin: 80px 8%;
+    background: #16a34a;
+    border-radius: 30px;
+    padding: 70px;
+    color: white;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    margin-bottom: 25px;
+    opacity: 0.9; 
+}
